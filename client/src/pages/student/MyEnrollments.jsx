@@ -1,6 +1,6 @@
 import React from "react";
 
-const MyEntrollments = () => {
+const MyEnrollments = () => {
 	return (
 		<div>
 			<h1>My Enrollments page</h1>
@@ -8,4 +8,4 @@ const MyEntrollments = () => {
 	);
 };
 
-export default MyEntrollments;
+export default MyEnrollments;
