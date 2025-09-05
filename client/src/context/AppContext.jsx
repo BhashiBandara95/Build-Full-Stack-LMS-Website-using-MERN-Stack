@@ -6,5 +6,7 @@ export const AppContext = createContext();
 
 export const AppContextProvider = (props) => {
 	const value = {};
-	return <AppContext.Provider>{props.children}</AppContext.Provider>;
+	return (
+		<AppContext.Provider value={value}>{props.children}</AppContext.Provider>
+	);
 };
